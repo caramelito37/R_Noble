@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\presentation\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|solutionrelative:presentation\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|c:\\users\\usuario\\desktop\\repositorio-locales\\r-noble\\noble\\presentation\\estilos\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|solutionrelative:presentation\\estilos\\button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\presentation\\frmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|solutionrelative:presentation\\frmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\presentation\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|solutionrelative:presentation\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\presentation\\frmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|solutionrelative:presentation\\frmpedidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\presentation\\estilos\\dgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|solutionrelative:presentation\\estilos\\dgv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{099FCEAB-92AC-44EF-B2CD-5D7799882168}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E71833-DA64-4FD8-8F56-A97C3C16F3BD}|Domain\\Domain.csproj|C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\domain\\dproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E71833-DA64-4FD8-8F56-A97C3C16F3BD}|Domain\\Domain.csproj|solutionrelative:domain\\dproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{069C0D79-48B2-4222-8E87-1831C33B1167}|DataAccess\\DataAccess.csproj|C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\dataaccess\\daoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{069C0D79-48B2-4222-8E87-1831C33B1167}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\daoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{069C0D79-48B2-4222-8E87-1831C33B1167}|DataAccess\\DataAccess.csproj|C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\dataaccess\\connectiontomysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{069C0D79-48B2-4222-8E87-1831C33B1167}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\connectiontomysql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "Presentation\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\frmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentation\\frmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T00:28:03.022Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "Presentation\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\frmPrincipal.cs",
+              "RelativeToolTip": "Presentation\\frmPrincipal.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAmwDMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T05:37:07.129Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPedidos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\frmPedidos.cs",
+              "RelativeDocumentMoniker": "Presentation\\frmPedidos.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Noble\\Noble\\Presentation\\frmPedidos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Noble\\Noble\\Presentation\\frmPedidos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T00:44:47.291Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmPedidos.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\frmPedidos.cs",
+              "RelativeDocumentMoniker": "Presentation\\frmPedidos.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\frmPedidos.cs",
+              "RelativeToolTip": "Presentation\\frmPedidos.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwCcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T00:48:14.991Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Button.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\Estilos\\Button.cs",
+              "RelativeDocumentMoniker": "Presentation\\Estilos\\Button.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\Estilos\\Button.cs",
+              "RelativeToolTip": "Presentation\\Estilos\\Button.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T07:02:54.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dgv.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\Estilos\\Dgv.cs",
+              "RelativeDocumentMoniker": "Presentation\\Estilos\\Dgv.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\Estilos\\Dgv.cs",
+              "RelativeToolTip": "Presentation\\Estilos\\Dgv.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAiwIYAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T00:50:41.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T06:13:29.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DProduct.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Domain\\DProduct.cs",
+              "RelativeDocumentMoniker": "Domain\\DProduct.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\Domain\\DProduct.cs",
+              "RelativeToolTip": "Domain\\DProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T00:37:04.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DaoProduct.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\DataAccess\\DaoProduct.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DaoProduct.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\DataAccess\\DaoProduct.cs",
+              "RelativeToolTip": "DataAccess\\DaoProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T00:36:31.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConnectionToMySql.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\DataAccess\\ConnectionToMySql.cs",
+              "RelativeDocumentMoniker": "DataAccess\\ConnectionToMySql.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\Repositorio-Locales\\R-Noble\\Noble\\DataAccess\\ConnectionToMySql.cs",
+              "RelativeToolTip": "DataAccess\\ConnectionToMySql.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T00:28:48.108Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

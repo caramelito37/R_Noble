@@ -1,0 +1,171 @@
+CREATE DATABASE IF NOT EXISTS db_noble;
+
+USE db_noble;
+
+-- Tabla de Categorías
+CREATE TABLE IF NOT EXISTS Categoria (
+    categoria_id INT AUTO_INCREMENT PRIMARY KEY,
+    categoria_nombre VARCHAR(255)
+);
+-- Tabla de Productos
+CREATE TABLE IF NOT EXISTS Producto (
+    producto_id INT AUTO_INCREMENT PRIMARY KEY,
+    producto_nombre VARCHAR(255),
+    producto_precio DECIMAL(10, 2),
+    categoria_id INT,
+    FOREIGN KEY (categoria_id) REFERENCES Categoria(categoria_id)
+);
+
+-- Tabla de Mesas
+CREATE TABLE IF NOT EXISTS Mesa (
+    mesa_id INT AUTO_INCREMENT PRIMARY KEY,
+    mesa_numero INT,
+    mesa_capacidad INT
+);
+
+-- Tabla de Pedidos
+CREATE TABLE IF NOT EXISTS Pedido (
+    pedido_id INT AUTO_INCREMENT PRIMARY KEY,
+    pedido_fecha DATETIME,
+    mesa_id INT,
+    FOREIGN KEY (mesa_id) REFERENCES Mesa(mesa_id)
+);
+
+-- Tabla de Detalles del Pedido
+CREATE TABLE IF NOT EXISTS Detalle_Pedido (
+    detalle_pedido_id INT AUTO_INCREMENT PRIMARY KEY,
+    pedido_id INT,
+    producto_id INT,
+    detalle_pedido_cantidad INT,
+    detalle_pedido_subtotal DECIMAL(10, 2),
+    FOREIGN KEY (pedido_id) REFERENCES Pedido(pedido_id),
+    FOREIGN KEY (producto_id) REFERENCES Producto(producto_id)
+);
+
+-- Tabla de Caja
+CREATE TABLE IF NOT EXISTS Caja (
+    caja_id INT AUTO_INCREMENT PRIMARY KEY,
+    caja_fecha DATE,
+    caja_monto_apertura DECIMAL(10, 2),
+    caja_monto_cierre DECIMAL(10, 2),
+    caja_total_ventas DECIMAL(10, 2)
+);
+
+INSERT INTO Categoria (categoria_nombre) VALUES 
+('Pollo a la brasa'),
+('Bebidas calientes'),
+('Bebidas frías'),
+('Gaseosas');
+
+
+
+INSERT INTO Producto (producto_nombre, producto_precio, categoria_id) VALUES 
+-- Productos de la categoría "Pollo a la brasa"
+('1/8 de Pollo', 5.99, 1),
+('1/4 de Pollo', 8.99, 1),
+('1/2 Pollo', 12.99, 1),
+('Un Pollo Entero', 22.99, 1),
+('Porción de Papas', 3.99, 1),
+-- Productos de la categoría "Bebidas calientes"
+('Café', 2.50, 2),
+('Té Piteado', 2.75, 2),
+-- Productos de la categoría "Bebidas frías"
+('Limonada (Jarra)', 4.50, 3),
+('Limonada (1/2 Jarra)', 2.50, 3),
+('Chicha Morada (Jarra)', 5.50, 3),
+('Chicha Morada (1/2 Jarra)', 3.00, 3),
+-- Productos de la categoría "Gaseosas"
+('Coca-Cola 355ml (Botella de vidrio)', 3.50, 4),
+('Coca-Cola 600ml (Botella de vidrio)', 5.50, 4),
+('Coca-Cola 355ml (Lata)', 3.00, 4),
+('Coca-Cola 473ml (Lata)', 4.00, 4),
+('Coca-Cola 500ml (Botella de plástico)', 4.50, 4),
+('Coca-Cola 1 litro (Botella de plástico)', 7.00, 4),
+('Coca-Cola 2 litros (Botella de plástico)', 12.00, 4),
+('Coca-Cola 2.25 litros (Botella de plástico)', 13.00, 4),
+('Coca-Cola 3 litros (Botella de plástico)', 16.00, 4);
+
+INSERT INTO Mesa (mesa_numero, mesa_capacidad) VALUES 
+(1, 4), -- Mesa 1 con capacidad para 4 personas
+(2, 6), -- Mesa 2 con capacidad para 6 personas
+(3, 4), -- Mesa 3 con capacidad para 4 personas
+(4, 8), -- Mesa 4 con capacidad para 8 personas
+(5, 2); -- Mesa 5 con capacidad para 2 personas
+
+-- Pedidos por Mesa 1
+INSERT INTO Pedido (pedido_fecha, mesa_id) VALUES 
+('2024-02-24 12:00:00', 1), -- Pedido 1 en Mesa 1
+('2024-02-24 12:15:00', 1), -- Pedido 2 en Mesa 1
+('2024-02-24 12:30:00', 1); -- Pedido 3 en Mesa 1
+
+-- Detalles de los Pedidos
+-- Pedido 1 en Mesa 1
+INSERT INTO Detalle_Pedido (pedido_id, producto_id, detalle_pedido_cantidad, detalle_pedido_subtotal) VALUES
+(1, 1, 1, 5.99),   -- 1/8 de Pollo
+(1, 6, 1, 2.50),   -- Café
+(1, 9, 1, 4.50);   -- Limonada (Jarra)
+
+-- Pedido 2 en Mesa 1
+INSERT INTO Detalle_Pedido (pedido_id, producto_id, detalle_pedido_cantidad, detalle_pedido_subtotal) VALUES
+(2, 3, 1, 12.99),  -- 1/2 Pollo
+(2, 13, 1, 3.00),  -- Coca-Cola 355ml (Lata)
+(2, 18, 1, 13.00); -- Inca Kola 2.25 litros (Botella de plástico)
+
+-- Pedido 3 en Mesa 1
+INSERT INTO Detalle_Pedido (pedido_id, producto_id, detalle_pedido_cantidad, detalle_pedido_subtotal) VALUES
+(3, 2, 1, 8.99),   -- 1/4 de Pollo
+(3, 12, 1, 5.50),  -- Coca-Cola 600ml (Botella de vidrio)
+(3, 16, 1, 4.50);  -- Coca-Cola 500ml (Botella de plástico)
+
+
+
+-- Insertar un nuevo pedido para la mesa 1
+INSERT INTO Pedido (pedido_fecha, mesa_id) VALUES ('2024-02-24 12:00:00', 2);
+-- Obtener el ID del pedido generado
+SET @pedido_id = LAST_INSERT_ID();
+-- Insertar los detalles del pedido (diez productos en este caso)
+INSERT INTO Detalle_Pedido (pedido_id, producto_id, detalle_pedido_cantidad, detalle_pedido_subtotal) VALUES
+(@pedido_id, 1, 2, 11.98),   -- 1/8 de Pollo
+(@pedido_id, 2, 1, 2.50),    -- Café
+(@pedido_id, 3, 3, 38.97),   -- 1/2 Pollo
+(@pedido_id, 4, 2, 6.00),    -- Coca-Cola 355ml (Lata)
+(@pedido_id, 5, 1, 5.50),    -- Inca Kola 600ml (Botella de vidrio)
+(@pedido_id, 6, 1, 4.50),    -- Coca-Cola 500ml (Botella de plástico)
+(@pedido_id, 7, 2, 14.00),   -- Coca-Cola 1 litro (Botella de plástico)
+(@pedido_id, 8, 1, 5.50),    -- Inca Kola 600ml (Botella de vidrio)
+(@pedido_id, 9, 3, 12.00),   -- Coca-Cola 2 litros (Botella de plástico)
+(@pedido_id, 10, 2, 7.00);   -- 1/4 de Pollo
+
+
+
+SELECT 
+    Detalle_Pedido.detalle_pedido_id as "Detalle pedido id",
+    Producto.producto_nombre as "nombre del producto",
+    Detalle_Pedido.detalle_pedido_cantidad as "cantidad",
+    Detalle_Pedido.detalle_pedido_subtotal as "precio unitario",
+    (Detalle_Pedido.detalle_pedido_cantidad * Detalle_Pedido.detalle_pedido_subtotal) as "total"
+FROM 
+    Detalle_Pedido
+JOIN 
+    Producto ON Detalle_Pedido.producto_id = Producto.producto_id
+WHERE 
+    Detalle_Pedido.pedido_id = 4;
+
+
+
+
+DELIMITER //
+CREATE PROCEDURE MostrarDatosProducto()
+BEGIN
+    SELECT 
+        p.producto_id AS ID,
+        p.producto_nombre AS DESCRIPCION,
+        p.producto_precio AS PRECIO,
+        c.categoria_nombre AS CATEGORIA
+    FROM Producto p
+    INNER JOIN Categoria c ON p.categoria_id = c.categoria_id;
+END //
+DELIMITER ;
+
+
+call MostrarDatosProducto;
